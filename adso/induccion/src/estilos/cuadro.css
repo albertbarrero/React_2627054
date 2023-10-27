@@ -1,0 +1,12 @@
+.contenedor-cuadro{
+    background-color: red;
+    width: 1170px;
+    height: 300px;
+    margin: 10px 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
