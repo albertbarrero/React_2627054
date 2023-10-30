@@ -28,21 +28,21 @@ export default function Formulario(){
             <form onSubmit={envio}>
 
                 {/* Type Text y TextArea */}
-                <label htmlhtmlFor="nom">Nombres</label>
+                <label htmlhtmlhtmlFor="nom">Nombres</label>
                 <input type="text" id="nom" classNameName="nom" value={form.nom} onChange={inputs} />
                 
 
                 {/* Type Radio */}
                 <p>Jornada a Estudiar</p>
-                <label htmlhtmlFor="mañana">Mañana</label>
+                <label htmlhtmlhtmlFor="mañana">Mañana</label>
                 <input type="radio" id="mañana" classNameName="est" name="est" value="Mañana" onChange={inputs} defaultChecked />
                 
 
-                <label htmlhtmlFor="tarde">Tarde</label>
+                <label htmlhtmlhtmlFor="tarde">Tarde</label>
                 <input type="radio" id="mañana" classNameName="est" name="est" value="Mañana" onChange={inputs} />
                 
 
-                <label htmlhtmlFor="noche">Noche</label>
+                <label htmlhtmlhtmlFor="noche">Noche</label>
                 <input type="radio" id="mañana" classNameName="est" name="est" value="Mañana" onChange={inputs} />
                 
                 {/* Select */}
@@ -56,7 +56,7 @@ export default function Formulario(){
                 <br />
 
                 {/* Checkbox */}
-                <label htmlhtmlFor="condi">Acepta los terminos</label>
+                <label htmlhtmlhtmlFor="condi">Acepta los terminos</label>
                 <input type="checkbox" id="condi" name="condi" classNameName="condi" onChange={check} />
                 
                 <br />

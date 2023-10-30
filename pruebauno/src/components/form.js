@@ -18,7 +18,7 @@ export default function Formulario() {
       <h2>FORMULARIOS</h2>
       <form onSubmit={envio}>
         {/* Type Text y TextArea */}
-        <label htmlhtmlFor="nom">Nombre</label>
+        <label htmlFor="nom">Nombre</label>
         <input
           type="text"
           id="nom"
@@ -29,7 +29,7 @@ export default function Formulario() {
 
         {/* Type Radio */}
         <p>Jornada a Estudiar</p>
-        <label htmlhtmlFor="mañana">Mañana</label>
+        <label htmlhtmlhtmlFor="mañana">Mañana</label>
         <input
           type="radio"
           id="mañana"
@@ -40,7 +40,7 @@ export default function Formulario() {
           defaultChecked
         />
 
-        <label htmlhtmlFor="tarde">Tarde</label>
+        <label htmlhtmlhtmlFor="tarde">Tarde</label>
         <input
           type="radio"
           id="tarde"
@@ -50,7 +50,7 @@ export default function Formulario() {
           onChange={(e) => setEst(e.target.value)}
         />
 
-        <label htmlhtmlFor="noche">Noche</label>
+        <label htmlhtmlhtmlFor="noche">Noche</label>
         <input
           type="radio"
           id="noche"
@@ -75,7 +75,7 @@ export default function Formulario() {
         <br />
 
         {/* Checkbox */}
-        <label htmlhtmlFor="condi">Acepta los terminos</label>
+        <label htmlhtmlhtmlFor="condi">Acepta los terminos</label>
         <input
           type="checkbox"
           id="condi"

@@ -4,7 +4,7 @@ import Formularios from './components/Formularios';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Formularios />
     </div>
   );
