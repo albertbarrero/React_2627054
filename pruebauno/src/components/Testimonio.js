@@ -3,17 +3,17 @@ import "../estilos/Testimonio.css"
 
 export default function Testimonio(props){
   return(
-    <div className="contenedor-testi">
+    <div classNameName="contenedor-testi">
       <img 
-        className="imagen-testi"
+        classNameName="imagen-testi"
         src={require(`../imagenes/${props.imagen}.jpg`)}
         alt="Foto 1" />
 
-      <div className="contenedor-text">
-        <p className="nom-testi"><strong>{props.nom}</strong></p>
-        <p className="edad-testi"><strong>{props.edad}</strong></p>
-        <p className="Cargo-testi">{props.cargo}</p>
-        <p className="text-testi">{props.text}</p>
+      <div classNameName="contenedor-text">
+        <p classNameName="nom-testi"><strong>{props.nom}</strong></p>
+        <p classNameName="edad-testi"><strong>{props.edad}</strong></p>
+        <p classNameName="Cargo-testi">{props.cargo}</p>
+        <p classNameName="text-testi">{props.text}</p>
       </div>
     </div>
   );

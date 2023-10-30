@@ -23,27 +23,27 @@ export default function Formulario(){
     }
 
     return (
-        <div className="contenedor-formu">
+        <div classNameName="contenedor-formu">
             <h2>FORMULARIOS</h2>
             <form onSubmit={envio}>
 
                 {/* Type Text y TextArea */}
-                <label htmlFor="nom">Nombres</label>
-                <input type="text" id="nom" className="nom" value={form.nom} onChange={inputs} />
+                <label htmlhtmlFor="nom">Nombres</label>
+                <input type="text" id="nom" classNameName="nom" value={form.nom} onChange={inputs} />
                 
 
                 {/* Type Radio */}
                 <p>Jornada a Estudiar</p>
-                <label htmlFor="mañana">Mañana</label>
-                <input type="radio" id="mañana" className="est" name="est" value="Mañana" onChange={inputs} defaultChecked />
+                <label htmlhtmlFor="mañana">Mañana</label>
+                <input type="radio" id="mañana" classNameName="est" name="est" value="Mañana" onChange={inputs} defaultChecked />
                 
 
-                <label htmlFor="tarde">Tarde</label>
-                <input type="radio" id="mañana" className="est" name="est" value="Mañana" onChange={inputs} />
+                <label htmlhtmlFor="tarde">Tarde</label>
+                <input type="radio" id="mañana" classNameName="est" name="est" value="Mañana" onChange={inputs} />
                 
 
-                <label htmlFor="noche">Noche</label>
-                <input type="radio" id="mañana" className="est" name="est" value="Mañana" onChange={inputs} />
+                <label htmlhtmlFor="noche">Noche</label>
+                <input type="radio" id="mañana" classNameName="est" name="est" value="Mañana" onChange={inputs} />
                 
                 {/* Select */}
                 <p>Tipo de Documento</p>
@@ -56,8 +56,8 @@ export default function Formulario(){
                 <br />
 
                 {/* Checkbox */}
-                <label htmlFor="condi">Acepta los terminos</label>
-                <input type="checkbox" id="condi" name="condi" className="condi" onChange={check} />
+                <label htmlhtmlFor="condi">Acepta los terminos</label>
+                <input type="checkbox" id="condi" name="condi" classNameName="condi" onChange={check} />
                 
                 <br />
 

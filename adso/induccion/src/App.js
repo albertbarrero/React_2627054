@@ -4,7 +4,7 @@ import Cuadro from './components/cuadro';
 
 function App() {
   return (
-    <div className="App">
+    <div classNameName="App">
       <Cuadro 
       nom="Angie Garcia"
       edad={25}
