@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export default function Formulario(){
     /*Forma avanzada*/
+    /*Tipo texto, textarea */
     const [form, setForm] = useState({});
 
     const inputs = (e) =>{
@@ -10,26 +11,27 @@ export default function Formulario(){
             [e.target.name]:e.target.value,
         });
     };
-
+    /*Tipo Check */
     const check = (e) =>{
         setForm({
             ...form,
             [e.target.name]:e.target.checked,
         });
     };    
+
     const envio=(e) =>{
         e.preventDefault(); //Hace que la pagina no c recargue cuando se envia
         alert ("Enviado");
     }
 
     return (
-        <div className="contenedor-formu">
+        <div classNameName="contenedor-formu">
             <h2>FORMULARIOS</h2>
             <form onSubmit={envio}>
 
                 {/* Type Text y TextArea */}
                 <label htmlFor="nom">Nombres</label>
-                <input type="text" id="nom" className="nom" value={form.nom} onChange={inputs} />
+                <input type="text" id="nom" classNameName="nom" value={form.nom} onChange={inputs} />
                 
 
                 {/* Type Radio */}
@@ -37,11 +39,9 @@ export default function Formulario(){
                 <label htmlFor="mañana">Mañana</label>
                 <input type="radio" id="mañana" className="est" name="est" value="Mañana" onChange={inputs} defaultChecked />
                 
-
                 <label htmlFor="tarde">Tarde</label>
                 <input type="radio" id="mañana" className="est" name="est" value="Mañana" onChange={inputs} />
                 
-
                 <label htmlFor="noche">Noche</label>
                 <input type="radio" id="mañana" className="est" name="est" value="Mañana" onChange={inputs} />
                 
@@ -54,6 +54,7 @@ export default function Formulario(){
                 </select>
 
                 <br />
+
 
                 {/* Checkbox */}
                 <label htmlFor="condi">Acepta los terminos</label>

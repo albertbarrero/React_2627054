@@ -14,7 +14,7 @@ export default function Formulario() {
   };
 
   return (
-    <div className="contenedor-formu">
+    <div classNameName="contenedor-formu">
       <h2>FORMULARIOS</h2>
       <form onSubmit={envio}>
         {/* Type Text y TextArea */}
@@ -22,39 +22,39 @@ export default function Formulario() {
         <input
           type="text"
           id="nom"
-          className="nom"
+          classNameName="nom"
           value={nom}
           onChange={(e) => setNom(e.target.value)}
         />
 
         {/* Type Radio */}
         <p>Jornada a Estudiar</p>
-        <label htmlFor="mañana">Mañana</label>
+        <label htmlhtmlhtmlFor="mañana">Mañana</label>
         <input
           type="radio"
           id="mañana"
-          className="est"
+          classNameName="est"
           name="est"
           value="Mañana"
           onChange={(e) => setEst(e.target.value)}
           defaultChecked
         />
 
-        <label htmlFor="tarde">Tarde</label>
+        <label htmlhtmlhtmlFor="tarde">Tarde</label>
         <input
           type="radio"
           id="tarde"
-          className="est"
+          classNameName="est"
           name="est"
           value="Tarde"
           onChange={(e) => setEst(e.target.value)}
         />
 
-        <label htmlFor="noche">Noche</label>
+        <label htmlhtmlhtmlFor="noche">Noche</label>
         <input
           type="radio"
           id="noche"
-          className="est"
+          classNameName="est"
           name="est"
           value="Noche"
           onChange={(e) => setEst(e.target.value)}
@@ -75,12 +75,12 @@ export default function Formulario() {
         <br />
 
         {/* Checkbox */}
-        <label htmlFor="condi">Acepta los terminos</label>
+        <label htmlhtmlhtmlFor="condi">Acepta los terminos</label>
         <input
           type="checkbox"
           id="condi"
           name="condi"
-          className="condi"
+          classNameName="condi"
           onChange={(e) => setCondi(e.target.checked)}
         />
 

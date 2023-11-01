@@ -3,15 +3,15 @@ import "../estilos/cuadro.css";
 
 export default function Cuadro(props){
     return(
-        <div className="contenedor-cuadro">
+        <div classNameName="contenedor-cuadro">
 
-            <img className="imagen-cuadro" src={require(`../image/${props.imagen}.jpg`)} alt="img1" />
+            <img classNameName="imagen-cuadro" src={require(`../image/${props.imagen}.jpg`)} alt="img1" />
 
-            <div className="contenedor-texto">
-                <p className="nom-cuadro">{props.nom}</p>
-                <p className="edad-cuadro">{props.edad}</p>
-                <p className="cargo-cuadro">{props.cargo}</p>
-                <p className="exp-cuadro">{props.exp}</p>
+            <div classNameName="contenedor-texto">
+                <p classNameName="nom-cuadro">{props.nom}</p>
+                <p classNameName="edad-cuadro">{props.edad}</p>
+                <p classNameName="cargo-cuadro">{props.cargo}</p>
+                <p classNameName="exp-cuadro">{props.exp}</p>
             </div>
         </div>
     );

@@ -4,8 +4,8 @@ import Formulario from './components/form';
 
 function App() {
   return (
-    <div className="App">
-      <div className='contenedor-principal'>
+    <div classNameName="App">
+      <div classNameName='contenedor-principal'>
         <h1>TITULO DEL TALLER</h1>
         <Testimonio1
           nom="Albert Barrero"
